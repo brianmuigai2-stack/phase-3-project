@@ -24,6 +24,7 @@ class Colors:
     
     @staticmethod
     def success(text):
+        """Format text with green color for success messages."""
         return f"{Fore.GREEN}{text}{Style.RESET_ALL}"
     
     @staticmethod
