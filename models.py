@@ -1,4 +1,5 @@
 # models.py
+"""Database models for the password security application."""
 from sqlalchemy import Column, Integer, String, ForeignKey, Boolean, Table
 from sqlalchemy.orm import relationship
 from database import Base
