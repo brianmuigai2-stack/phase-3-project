@@ -7,6 +7,7 @@ from colorama import init, Fore, Back, Style
 init(autoreset=True)
 
 class Colors:
+    """Color constants and utility methods for CLI output."""
     # Text colors
     RED = Fore.RED
     GREEN = Fore.GREEN
