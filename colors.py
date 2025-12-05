@@ -34,6 +34,7 @@ class Colors:
     
     @staticmethod
     def warning(text):
+        """Format text with yellow color for warning messages."""
         return f"{Fore.YELLOW}{text}{Style.RESET_ALL}"
     
     @staticmethod
