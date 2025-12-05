@@ -1,0 +1,4 @@
+SQLAlchemy>=1.4.0
+bcrypt>=3.2.0
+questionary>=1.10.0
+colorama>=0.4.4
