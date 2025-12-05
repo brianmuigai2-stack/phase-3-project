@@ -29,6 +29,7 @@ class Colors:
     
     @staticmethod
     def error(text):
+        """Format text with red color for error messages."""
         return f"{Fore.RED}{text}{Style.RESET_ALL}"
     
     @staticmethod
