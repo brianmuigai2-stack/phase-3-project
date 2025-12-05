@@ -3,6 +3,7 @@
 # Created by: Brian Muigai
 
 import sys
+# Import the main CLI interface
 from cli import InteractiveCLI
 
 if __name__ == "__main__":
