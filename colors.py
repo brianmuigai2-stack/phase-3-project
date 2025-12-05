@@ -3,6 +3,7 @@
 from colorama import init, Fore, Back, Style
 
 # Initialize colorama for cross-platform support
+# Auto-reset ensures colors don't persist
 init(autoreset=True)
 
 class Colors:
